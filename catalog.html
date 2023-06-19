@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>catalog</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <img class="logo" src="img/logo.png" alt="Логотип Седона" />
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Поиск</span></a
+            >
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Избранное</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <button>Хочу сюда!</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-inner">
+      <header class="inner-header">
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">Главная страница</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Гостиницы</a>
+          </li>
+        </ul>
+      </header>
+    </main>
+    <section>
+      <div class="catalog-products">Инфраструктура:</div>
+      <ul class="catalog-products-list">
+        <li class="catalog-products-item">
+          <input type="checkbox" name="swimmingpool" checked />Бассейн
+        </li>
+        <li class="catalog-products-item">
+          <input type="checkbox" name="parcking" checked />Парковка
+        </li>
+        <li class="catalog-products-item">
+          <input type="checkbox" name="wi-fi" />Wi-Fi
+        </li>
+      </ul>
+    </section>
+    <section>
+      <div class="catalog-products">Тип жилья:</div>
+      <ul class="catalog-products-list">
+        <li class="catalog-products-item">
+          <input type="radio" name="text" checked />Гостиница
+        </li>
+        <li class="catalog-products-item">
+          <input type="radio" name="text" />Мотель
+        </li>
+        <li class="catalog-products-item">
+          <input type="radio" name="text" />Аппартаменты
+        </li>
+      </ul>
+    </section>
+    <section class="catalog-products">
+      <h2 class="visually-hidden">Фильтр гостиниц</h2>
+      <div>Стоимость, ₽:</div>
+      <div>
+        <input type="number" placeholder="От" />
+        <input type="number" placeholder="До" />
+      </div>
+    </section>
+    <section>
+      <h3 class="visually-hidden">Отправка формы</h3>
+      <ul>
+        <li>
+          <input type="button" value="Применить" />
+        </li>
+        <li>Сбросить</li>
+      </ul>
+    </section>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://twitter.com">
+            <img src="img/logo-twitter.svg" alt="twitter" />
+          </a>
+          <a href="https://facebook.com">
+            <img src="img/logo-facebook.svg" alt="facebook"
+          /></a>
+          <a href="https://youtube.com">
+            <img src="img/logo-youtube.svg" alt="youtube"
+          /></a>
+        </li>
+        <li>
+          <a href="tel:+78128121212">+78128121212</a>
+        </li>
+        <li>
+          <a href="https://htmlacademy.ru"
+            ><img src="#" alt="Разработано в htmlacademy"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
