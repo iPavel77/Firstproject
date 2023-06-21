@@ -50,52 +50,68 @@
           </li>
         </ul>
       </header>
+      <form>
+        <fieldset class="group-filter">
+          <legend class="catalog-products">Инфраструктура:</legend>
+          <ul class="catalog-products-list">
+            <li class="catalog-products-item">
+              <label>
+                <input type="checkbox" name="swimmingpool" checked />
+                <span> Бассейн</span></label
+              >
+            </li>
+            <li class="catalog-products-item">
+              <label>
+                <input type="checkbox" name="parcking" checked />
+                <span>Парковка</span></label
+              >
+            </li>
+            <li class="catalog-products-item">
+              <label>
+                <input type="checkbox" name="wi-fi" />
+                <span>Wi-Fi</span></label
+              >
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="filter-group">
+          <legend class="catalog-products">Тип жилья:</legend>
+          <ul class="catalog-products-list">
+            <li class="catalog-products-item">
+              <label>
+                <input type="radio" name="text" checked /><span
+                  >Гостиница</span
+                ></label
+              >
+            </li>
+            <li class="catalog-products-item">
+              <label>
+                <input type="radio" name="text" /><span>Мотель</span></label
+              >
+            </li>
+            <li class="catalog-products-item">
+              <label>
+                <input type="radio" name="text" /><span
+                  >Аппартаменты</span
+                ></label
+              >
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="filter-group">
+          <legend>Стоимость, ₽:</legend>
+          <label><input type="number" placeholder="От" /></label>
+          <label><input type="number" placeholder="До" /></label>
+        </fieldset>
+        <h3 class="visually-hidden">Отправка формы</h3>
+        <ul>
+          <li>
+            <input type="button" value="Применить" />
+            <input type="button" value="Сбросить" />
+          </li>
+        </ul>
+      </form>
     </main>
-    <section>
-      <div class="catalog-products">Инфраструктура:</div>
-      <ul class="catalog-products-list">
-        <li class="catalog-products-item">
-          <input type="checkbox" name="swimmingpool" checked />Бассейн
-        </li>
-        <li class="catalog-products-item">
-          <input type="checkbox" name="parcking" checked />Парковка
-        </li>
-        <li class="catalog-products-item">
-          <input type="checkbox" name="wi-fi" />Wi-Fi
-        </li>
-      </ul>
-    </section>
-    <section>
-      <div class="catalog-products">Тип жилья:</div>
-      <ul class="catalog-products-list">
-        <li class="catalog-products-item">
-          <input type="radio" name="text" checked />Гостиница
-        </li>
-        <li class="catalog-products-item">
-          <input type="radio" name="text" />Мотель
-        </li>
-        <li class="catalog-products-item">
-          <input type="radio" name="text" />Аппартаменты
-        </li>
-      </ul>
-    </section>
-    <section class="catalog-products">
-      <h2 class="visually-hidden">Фильтр гостиниц</h2>
-      <div>Стоимость, ₽:</div>
-      <div>
-        <input type="number" placeholder="От" />
-        <input type="number" placeholder="До" />
-      </div>
-    </section>
-    <section>
-      <h3 class="visually-hidden">Отправка формы</h3>
-      <ul>
-        <li>
-          <input type="button" value="Применить" />
-        </li>
-        <li>Сбросить</li>
-      </ul>
-    </section>
     <footer>
       <ul>
         <li>
