@@ -100,8 +100,14 @@
         </fieldset>
         <fieldset class="filter-group">
           <legend>Стоимость, ₽:</legend>
-          <label><input type="number" placeholder="От" /></label>
-          <label><input type="number" placeholder="До" /></label>
+          <label>
+            <input ttype="number" type="number" min="0" value="0" />
+            <input type="number" max="9000" value="9000" />
+          </label>
+          <div>
+            <input type="button" value="изменить минимальную цену" />
+            <input type="button" value="изменить максимальную цену" />
+          </div>
         </fieldset>
         <h3 class="visually-hidden">Отправка формы</h3>
         <ul>
